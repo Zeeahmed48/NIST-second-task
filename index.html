@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="Images/logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cleaning Services</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- Header Starts -->
+      <div class="header">
+        <div class="header_info_wrapper">
+          <div class="header_info">
+            <div class="header_contacts">
+              <div class="contact_info">
+                <i class="fas fa-map-marker-alt"></i>
+                <span class="header_text"
+                  >76a Darenth Road, London, England, N16 6ED</span
+                >
+              </div>
+              <div class="contact_info">
+                <i class="fas fa-phone-alt"></i>
+                <span class="header_text">01615462235</span>
+              </div>
+              <div class="contact_info">
+                <i class="far fa-clock"></i>
+                <span class="header_text">Mon - Sat : 08:00am to 08:00pm</span>
+              </div>
+            </div>
+            <div class="header_links">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <button>book now</button>
+            </div>
+          </div>
+        </div>
+        <!-- Navbar Starts -->
+        <div class="navbar">
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          <img src="Images/logo.png" alt="logo" />
+          <ul class="nav_links" id="navLinks">
+            <li><a href="#">home</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">gallery</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">contacts</a></li>
+            <li  id="togglesearch"><input type="search" /></li>
+            <li>
+              <a href="#" onclick="toggleSearch()" ><i class="fas fa-search"></i></a>
+            </li>
+          </ul>
+        </div>
+        <!-- Navbar Ends -->
+      </div>
+      <!-- Header Ends -->
+      <!-- Slider Starts -->
+      <div class="slider">
+        <div class="mySlides fade">
+          <img src="Images/slider.png" />
+          <div class="text">
+            <h1>
+              ECS <span class="green_text">Success in</span> <br />every
+              projects
+            </h1>
+            <p>
+              A Cleaning Company Services is Provides Professional Services.
+            </p>
+            <button class="left">our services</button>
+            <button class="right">our services</button>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <img src="Images/slider.png" />
+          <div class="text">
+            <h1>
+              ECS <span class="green_text">Success in</span> <br />every
+              projects
+            </h1>
+            <p>
+              A Cleaning Company Services is Provides Professional Services.
+            </p>
+            <button class="left">our services</button>
+            <button class="right">our services</button>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <img src="Images/slider.png" />
+          <div class="text">
+            <h1>
+              ECS <span class="green_text">Success in</span> <br />every
+              projects
+            </h1>
+            <p>
+              A Cleaning Company Services is Provides Professional Services.
+            </p>
+            <button class="left">our services</button>
+            <button class="right">our services</button>
+          </div>
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)"
+          ><i class="fas fa-chevron-circle-left"></i
+        ></a>
+        <a class="next" onclick="plusSlides(1)"
+          ><i class="fas fa-chevron-circle-right"></i
+        ></a>
+      </div>
+      <!-- Slider Ends -->
+      <!-- Card Section Starts -->
+      <div class="cards_wrapper">
+        <div class="cards">
+          <div class="card">
+            <img src="Images/residential.png" alt="residential" />
+            <h3>Residential cleaning</h3>
+            <p>
+              Pernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit
+            </p>
+            <p>Floors cleaning</p>
+            <p>Window cleaning</p>
+            <p>Carpet cleaning</p>
+            <p>Washroom cleaning</p>
+            <img src="Images/25off.png" class="img_label" />
+          </div>
+          <div class="card">
+            <img src="Images/commercial.png" alt="commercial" />
+            <h3>Commercial cleaning</h3>
+            <p>
+              Pernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit
+            </p>
+            <p>Floors cleaning</p>
+            <p>Window cleaning</p>
+            <p>Carpet cleaning</p>
+            <p>Washroom cleaning</p>
+          </div>
+          <div class="card">
+            <img src="Images/maid.png" alt="maid" />
+            <h3>Maid cleaning</h3>
+            <p>
+              Pernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit
+            </p>
+            <p>Hourly cleaning</p>
+            <p>Daily cleaning</p>
+            <p>Weekly cleaning</p>
+            <p>Monthly cleaning</p>
+            <img src="Images/25off.png" class="img_label" />
+          </div>
+        </div>
+      </div>
+      <!-- Cards Section Ends -->
+      <!-- ECS Section Starts -->
+      <div class="ecs_wrapper">
+        <div class="ecs">
+          <div class="ecs_text">
+            <h2>
+              <span class="green_text">ECS</span> - Bringing Excellence in
+              Residential & Commercial cleaning services
+            </h2>
+            <p>
+              ECS Commercial Cleaning is known for all your commercial cleaning
+              needs in London. Our professional and fully-trained experts take
+              care of cleaning for all type of commercial institutions such as
+              offices, restaurants, hospitals, and educational institutions. We
+              are one stop solution to all your cleaning problems. We have
+              extensively trained and verified employees and focus on customer
+              delight.
+            </p>
+            <div class="ecs_icons">
+              <div class="ecs_icon">
+                <div class="ecs_support_wrapper">
+                  <img src="Images/icon_gift.png" alt="gift" />
+                  <span class="ecs_support">Certified company</span>
+                </div>
+                <p>
+                  The phrasal sequence of the Lorem Ipsum text is now so
+                  widespread
+                </p>
+              </div>
+              <div class="ecs_icon">
+                <div class="ecs_support_wrapper">
+                  <img src="Images/icon_thumb.png" alt="thumb" />
+                  <span class="ecs_support">Our experience</span>
+                </div>
+                <p>
+                  The phrasal sequence of the Lorem Ipsum text is now so
+                  widespread
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="ecs_image">
+            <img src="Images/ECS.png" alt="ecs" />
+          </div>
+        </div>
+      </div>
+      <!-- ECS Section Ends -->
+      <!-- Services Section Starts -->
+      <div class="services">
+        <h1>our services</h1>
+        <p>
+          The world's Latest at clean cleaning service company we can clean your
+          <br />
+          residential space including homes.
+        </p>
+        <img src="Images/separator.png" alt="shape" />
+        <div class="services_cards">
+          <div class="services_card">
+            <img src="Images/service_1.png" />
+            <h3>Apartment Cleaning</h3>
+            <p>
+              ECS Commercial Cleaning provides high quality carpet, upholstery,
+              rug and mattress cleaning services in London. We ensure to provide
+              a superior clean and leave your valuable
+            </p>
+            <a href="#"> Read More <i class="fas fa-chevron-right"></i> </a>
+          </div>
+          <div class="services_card">
+            <img src="Images/service_2.png" />
+            <h3>House Cleaning</h3>
+            <p>
+              ECS Commercial Cleaning provides high quality carpet, upholstery,
+              rug and mattress cleaning services in London. We ensure to provide
+              a superior clean and leave your valuable
+            </p>
+            <a href="#"> Read More <i class="fas fa-chevron-right"></i> </a>
+          </div>
+          <div class="services_card">
+            <img src="Images/service_3.png" />
+            <h3>Carpet Cleaning</h3>
+            <p>
+              ECS Commercial Cleaning provides high quality carpet, upholstery,
+              rug and mattress cleaning services in London. We ensure to provide
+              a superior clean and leave your valuable
+            </p>
+            <a href="#"> Read More <i class="fas fa-chevron-right"></i> </a>
+          </div>
+        </div>
+        <div class="services_cards">
+          <div class="services_card">
+            <img src="Images/service_4.png" />
+            <h3>Commercial Cleaning</h3>
+            <p>
+              ECS Commercial Cleaning provides high quality carpet, upholstery,
+              rug and mattress cleaning services in London. We ensure to provide
+              a superior clean and leave your valuable
+            </p>
+            <a href="#"> Read More <i class="fas fa-chevron-right"></i> </a>
+          </div>
+          <div class="services_card">
+            <img src="Images/service_5.png" />
+            <h3>Residential Cleaning</h3>
+            <p>
+              ECS Commercial Cleaning provides high quality carpet, upholstery,
+              rug and mattress cleaning services in London. We ensure to provide
+              a superior clean and leave your valuable
+            </p>
+            <a href="#"> Read More <i class="fas fa-chevron-right"></i> </a>
+          </div>
+          <div class="services_card">
+            <img src="Images/service_6.png" />
+            <h3>After Renovation</h3>
+            <p>
+              ECS Commercial Cleaning provides high quality carpet, upholstery,
+              rug and mattress cleaning services in London. We ensure to provide
+              a superior clean and leave your valuable
+            </p>
+            <a href="#"> Read More <i class="fas fa-chevron-right"></i> </a>
+          </div>
+        </div>
+      </div>
+      <!-- Services Section Ends -->
+      <!-- Contact Section Starts -->
+      <form class="contact">
+        <div class="contact_request">
+          <h1>Request a <span class="green_text">Call back</span></h1>
+          <img src="Images/separator_contact.png" alt="separator" />
+          <p>
+            Lorem ipsum dolor sit amet con\aase adipis elit Assumenda repud eum
+            veniam optio modi sit explicabo nisi magnam quibusdam.
+          </p>
+          <input type="text" required placeholder="Name" />
+          <input type="email" required placeholder="Email" />
+          <input type="number" required placeholder="Phone number" />
+          <select required>
+            <option value="">Choose Service</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+        <div class="contact_message">
+          <div class="contact_message_icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>
+              76a Darenth Road, London,
+              <br />
+              England, N16 6ED
+            </span>
+          </div>
+          <div class="contact_message_icons">
+            <i class="fas fa-phone-alt"></i>
+            <span>
+              76a Darenth Road, London,
+              <br />
+              England, N16 6ED
+            </span>
+          </div>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <input type="submit" value="submit" />
+        </div>
+      </form>
+      <!-- Contact Section Ends -->
+      <!-- Pricing Section Starts -->
+      <div class="pricing">
+        <h1>our pricing</h1>
+        <p>
+          The world's Latest at clean cleaning service company we can clean your
+          <br />
+          residential space including homes.
+        </p>
+        <img src="Images/separator.png" alt="separator" />
+        <div class="pricing_cards">
+          <div class="pricing_card">
+            <div class="pricing_card_wrapper">
+              <h2>standard</h2>
+              <h3>
+                $ <span class="big">150</span>
+                <span class="green_text per_text">per hour</span>
+              </h3>
+              <hr />
+              <p>Expert cleaner</p>
+              <p>Secure services</p>
+              <p>Organic cleaning</p>
+              <p>Review system</p>
+              <p>Maintenance clening</p>
+            </div>
+            <div class="pricing_card_button">
+              <button>book now</button>
+            </div>
+          </div>
+          <div class="pricing_card">
+            <div class="pricing_card_wrapper">
+              <h2>premium</h2>
+              <h3>
+                $ <span class="big">80</span>
+                <span class="green_text per_text">per day</span>
+              </h3>
+              <hr />
+              <p>Expert cleaner</p>
+              <p>Secure services</p>
+              <p>Organic cleaning</p>
+              <p>Review system</p>
+              <p>Maintenance clening</p>
+            </div>
+            <div class="pricing_card_button">
+              <button>book now</button>
+            </div>
+          </div>
+          <div class="pricing_card">
+            <div class="pricing_card_wrapper">
+              <h2>ultimate</h2>
+              <h3>
+                $ <span class="big">600</span>
+                <span class="green_text per_text">per month</span>
+              </h3>
+              <hr />
+              <p>Expert cleaner</p>
+              <p>Secure services</p>
+              <p>Organic cleaning</p>
+              <p>Review system</p>
+              <p>Maintenance clening</p>
+              <p>Free Support</p>
+            </div>
+            <div class="pricing_card_button">
+              <button>book now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Pricing Section Ends -->
+      <!-- Why choose us Starts -->
+      <div class="choose_us_wrapper">
+        <div class="choose_us">
+          <h1>why choose us</h1>
+          <p>
+            The world's Latest at clean cleaning service company we can clean
+            your
+            <br />
+            residential space including homes.
+          </p>
+          <img src="Images/separator.png" alt="separator" />
+          <div class="chooseus_cards">
+            <div class="chooseus_card">
+              <img src="Images/expert_employee.png" />
+              <h3>Expert Employee</h3>
+              <p>
+                Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor
+                sit amet consectetu.
+              </p>
+            </div>
+            <div class="chooseus_card">
+              <img src="Images/secure_services.png" />
+              <h3>Secure Services</h3>
+              <p>
+                Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor
+                sit amet consectetu.
+              </p>
+            </div>
+            <div class="chooseus_card">
+              <img src="Images/low_costing.png" />
+              <h3>Low Costing</h3>
+              <p>
+                Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor
+                sit amet consectetu.
+              </p>
+            </div>
+            <div class="chooseus_card">
+              <img src="Images/on_time_finish.png" />
+              <h3>On time Finished</h3>
+              <p>
+                Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor
+                sit amet consectetu.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Why choose us Ends -->
+      <!-- Gallery Section Starts -->
+      <div class="gallery">
+        <h1>our gallery</h1>
+        <p>
+          The world's Latest at clean cleaning service company we can clean your
+          <br />
+          residential space including homes.
+        </p>
+        <img src="Images/separator.png" alt="separator" />
+        <div class="gallery_cards">
+          <div class="gallery_card">
+            <img src="Images/gallery_1.png" />
+          </div>
+          <div class="gallery_card">
+            <img src="Images/gallery_2.png" />
+          </div>
+          <div class="gallery_card">
+            <img src="Images/gallery_3.png" />
+          </div>
+          <div class="gallery_card">
+            <img src="Images/gallery_4.png" />
+          </div>
+          <div class="gallery_card">
+            <img src="Images/gallery_5.png" />
+          </div>
+          <div class="gallery_card">
+            <img src="Images/gallery_6.png" />
+          </div>
+        </div>
+        <button>view more</button>
+      </div>
+      <!-- Gallery Section Ends -->
+      <!-- News Section Starts -->
+      <div class="news">
+        <h1>latest news</h1>
+        <p>
+          The world's Latest at clean cleaning service company we can clean your
+          <br />
+          residential space including homes.
+        </p>
+        <img src="Images/separator.png" alt="separator" />
+        <div class="news_cards">
+          <div class="news_card">
+            <img src="Images/news_1.png" />
+            <h3>Cleaning Service System</h3>
+            <p>
+              ECS Commercial Cleaning provides high quality carpet, upholstery,
+              rug and mattress cleaning services in London. We ensure to provide
+              a superior clean and leave your valuable
+            </p>
+            <a href="#">read more <i class="fas fa-chevron-right"></i></a>
+          </div>
+          <div class="news_card">
+            <img src="Images/news_2.png" />
+            <h3>Carpet Cleaning Instruments</h3>
+            <p>
+              ECS Commercial Cleaning provides high quality carpet, upholstery,
+              rug and mattress cleaning services in London. We ensure to provide
+              a superior clean and leave your valuable
+            </p>
+            <a href="#">read more <i class="fas fa-chevron-right"></i></a>
+          </div>
+          <div class="news_card">
+            <img src="Images/news_3.png" />
+            <h3>Sanitizing Spray2</h3>
+            <p>
+              ECS Commercial Cleaning provides high quality carpet, upholstery,
+              rug and mattress cleaning services in London. We ensure to provide
+              a superior clean and leave your valuable
+            </p>
+            <a href="#">read more <i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- News Section Ends -->
+      <!-- Footer Starts -->
+      <div class="footer">
+        <div class="footer_top">
+          <div class="footer_top_text_left">
+            <h5>
+              Are you Looking for Professional Cleaning
+              <br />
+              Service for Your House or Apartment ?
+            </h5>
+          </div>
+          <div class="footer_top_text_right">
+            <h4>Call us : 01615462235</h4>
+            <h4>or</h4>
+            <button>contact us</button>
+          </div>
+        </div>
+        <div class="footer_main">
+          <div class="contact_footer">
+            <img src="Images/logo.png" alt="site_logo" />
+            <p>
+              We help agencies to define their new business objectives and then
+              create the road map to get them there by devising a business.We
+              help agencies to define their new business.
+            </p>
+            <h5><span class="green_text">Tel : </span> 01615462235</h5>
+            <h5>
+              <span class="green_text">Email : </span>
+              info@ecscommercialcleaning.co.uk
+            </h5>
+            <h5>
+              <span class="green_text">Location : </span> 76a Darenth Road,
+              London, England, N16 6ED
+            </h5>
+          </div>
+          <div class="service_footer">
+            <h3>service links</h3>
+            <div class="service_footer_links">
+              <ul>
+                <li>
+                  <a href="#"><i class="fas fa-chevron-right"></i>apartment</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-chevron-right"></i>house</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-chevron-right"></i>carpet</a>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a href="#"><i class="fas fa-chevron-right"></i>commercial</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-chevron-right"></i>residential</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-chevron-right"></i>after renovation</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <h4>follow us</h4>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+          <div class="newsletter_footer">
+            <h3>subscribe</h3>
+            <p>
+              We help agencies to define their new business objectives and then
+              create the road map to get them there by devising a business.
+            </p>
+            <input type="email" placeholder="Type your email" />
+            <button>subscribe</button>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <p>
+            Copyright ©
+            <span class="green_text">2020 ECS Commercial Cleaning</span>. All
+            Rights Reserved.
+          </p>
+          <button class="return_to_top" onclick="returnToTop()">
+            <i class="arrow_up"></i>
+          </button>
+        </div>
+      </div>
+      <!-- Footer Ends -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
